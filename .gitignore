@@ -1,0 +1,53 @@
+# Ignore Docker image files
+*.tar
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.lz4
+*.tar.sz
+*.tar.zst
+
+# Ignore Docker container logs
+*.log
+
+# Ignore Docker build artifacts
+Dockerfile.*
+.dockerignore
+
+# Ignore Docker Compose files
+docker-compose.yml
+docker-compose.yaml
+
+# Ignore Docker swarm files
+*.swarm.yml
+*.swarm.yaml
+
+# Ignore Docker stack files
+*.stack.yml
+*.stack.yaml
+
+# Ignore Docker volume files
+*.vol
+
+# Ignore Docker network files
+*.network
+
+# Ignore Docker secret files
+*.secret
+
+# Ignore Docker plugin files
+*.plugin
+
+# Ignore Docker context files
+*.context
+
+# Ignore Docker machine files
+*.machine
+
+# Ignore Docker configuration files
+*.conf
+*.env
+*.env.*
+
+# Ignore postgres_data directory
+postgres_data/
